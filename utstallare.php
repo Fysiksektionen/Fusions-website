@@ -14,6 +14,7 @@
     <script src="script.js?v=26"></script>
   </head>
   <body class="bg-light">
+    <!-- Include necessary recources -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <?php include 'p.php'; ?>
@@ -32,7 +33,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto bd-highlight">
-                <li class="nav-item"><a href="assets/fusion_broschyr.pdf" class="nav-link"><?php echo $language["BROSCHYR"]; ?></a></li>
+                <li class="nav-item nav-link"><?php echo $language["BROSCHYR2021"]; ?></li>
                 <li class="nav-item active"><a href="utstallare.php?lang=<?php echo $lang; ?>" class="nav-link"><?php echo $language["UTSTALLARE"]; ?></a></li>
                 <li class="nav-item"><a href="kontakt.php?lang=<?php echo $lang; ?>" class="nav-link"><?php echo $language["KONTAKT"]; ?></a></li>
                 <li class="nav-item"><a href="for_foretag.php?lang=<?php echo $lang; ?>" class="nav-link"><?php echo $language["FORFORETAG"]; ?></a></li>
@@ -53,6 +54,7 @@
           </div>
         </div>
       </section>
+      <!-- Adds an optional text and button for joining the fair -->
       <!--
       <section class="bg-light">
         <div class="container">
@@ -63,12 +65,100 @@
           </section>
         </div>
       </section>
-    -->
+      -->
 
       <section class="bg-light">
         <div class="container">
           <div class="jumbotron text-center pb-0 pb-sm-4 mb-0">
+            <h2 class="mb-4"><?php echo $language["UTSTALLARE2021"]; ?></h2>
+            <h3><a class="text-primary" href=""><?php echo $language["BROSCHYR2021"]; ?></a></h3>
+            <!--
+            <section class="card-deck text-center font-weight-light">
+              <section class="card">
+                <a href="https://www.ericsson.com/en" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/ericsson.png" alt="Ericsson logotyp"></a>
+              </section>
+              <section class="card">
+                <a href="https://www.if.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/if_logo.png" alt="If logotyp"></a>
+              </section>
+              <section class="card">
+                <a href="https://www.sunstone.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/sunstone_logga.png" alt="Sunstone logotyp"></a>
+              </section>
+            </section>
+          </div>
+          <div class="jumbotron py-0 py-sm-4 mb-0">
+            <section class="card-deck text-center font-weight-light">
+              <section class="card">
+                <a href="https://www.trioptima.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/trioptima-rgb.png" alt="Trioptima logotyp"></a>
+              </section>
+              <section class="card">
+                <a href="https://www.kry.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/lakare-pa-kry.png" alt="KRYs logotyp"></a>
+              </section>
+              <section class="card">
+                <a href="https://www.comsol.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/comsol_logo.png" alt="COMSOLs logotyp"></a>
+              </section>
+            </section>
+          </div>
+          <div class="jumbotron py-0 py-sm-4 mb-0">
+            <section class="card-deck text-center font-weight-light">
+              <section class="card">
+                <a href="https://www.ey.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/ey.png" alt="EYs logotyp"></a>
+              </section>
+              <section class="card">
+                <a href="http://www.find-out.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/findout_logga.png" alt="Findouts logotyp"></a>
+              </section>
+              <section class="card">
+                <a href="https://www.foi.se/en/foi.html" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/foi_logga.png" alt="FOIs logotyp"></a>
+              </section>
+            </section>
+          </div>
+          <div class="jumbotron py-0 py-sm-4 mb-0">
+            <section class="card-deck text-center font-weight-light">
+              <section class="card">
+                <a href="https://www.yabs.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/yabs.png" alt="YABSs logotyp"></a>
+              </section>
+              <section class="card">
+                <a href="https://silexmicrosystems.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/silex.jpg" alt="Silexs logotyp"></a>
+              </section>
+              <section class="card">
+                <a href="http://www.ampfield.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/ampfield_logga.png" alt="Ampfields logotyp"></a>
+              </section>
+            </section>
+          </div>
+          <div class="jumbotron py-0 py-sm-4 mb-0">
+            <section class="card-deck text-center font-weight-light">
+              <section class="card">
+                <a href="https://www.sverigesingenjorer.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/sveriges_ingenjorer.png" alt="Sveriges ingenjörers logotyp"></a>
+              </section>
+              <section class="card">
+                <a href="https://se.megger.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/megger_logo_colour.jpg" alt="Meggers logotyp"></a>
+              </section>
+              <section class="card">
+                <a href="https://www.jernkontoret.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/jernkontoret_logga.png" alt="Jernkontorets logotyp"></a>
+              </section>
+            </section>
+          </div>
+          <div class="jumbotron py-0 py-sm-4 mb-0">
+            <section class="card-deck text-center font-weight-light">
+              <section class="card">
+                <a href="https://www.coboltlasers.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/cobolt.jpg" alt="Cobolts logotyp"></a>
+              </section>
+              <section class="card">
+                <a href="http://www.lynxhedge.se/en" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/lynx.png" alt="Lynxs logotyp"></a>
+              </section>
+              <section class="card">
+                <a href="https://www.ohman.se/en/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/ohman.png" alt="Öhmans logotyp"></a>
+              </section>
+            </section>
+          </div>
+        </div>
+      </section> -->
+
+      <hr>
+      <section class="bg-light">
+        <div class="container">
+          <div class="jumbotron text-center pb-0 pb-sm-4 mb-0">
             <h2 class="mb-4"><?php echo $language["UTSTALLARE2020"]; ?></h2>
+            <h3><a class="text-primary" href="assets/broschyr/broschyr20.pdf"><?php echo $language["BROSCHYR2020"]; ?></a></h3>
             <section class="card-deck text-center font-weight-light">
               <section class="card">
                 <a href="https://www.ericsson.com/en" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/ericsson.png" alt="Ericsson logotyp"></a>
@@ -154,6 +244,7 @@
         <div class="container">
           <div class="jumbotron text-center pb-0 pb-sm-4 mb-0">
             <h2 class="mb-4"><?php echo $language["UTSTALLARE2019"]; ?></h2>
+            <h3><a class="text-primary" href="assets/broschyr/broschyr19.pdf"><?php echo $language["BROSCHYR2019"]; ?></a></h3>
             <section class="card-deck text-center font-weight-light">
               <section class="card">
                 <a href="http://www.ampfield.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2019/ampfield_logga.png" alt="Ampfields logotyp"></a>
@@ -250,25 +341,43 @@
       <div class="container py-4">
         <div class="row font-weight-light">
           <section class="col-md">
-            <h5 class="lead"><?php echo $language["HITTA"]; ?></h5>
-            <p><?php echo $language["NYMBLE"]; ?><br>
+            <h5 style="text-align:center" class="lead"><?php echo $language["HITTA"]; ?></h5>
+            <p style="text-align:center"><?php echo $language["VAR"]; ?><br>
             <?php echo $language["ADRESS"]; ?><br>
             <?php echo $language["ORT"]; ?></p>
           </section>
           <section class="col-md">
-            <h5 class="lead"><?php echo $language["KONTAKT"]; ?></h5>
-            <p>
-              <?php echo $language["PROJEKTLEDARE"]; ?><br>
-              <a href="mailto:plfusion@f.kth.se" class="text-white">plfusion@f.kth.se</a><br>
-              <?php echo $language["FORETAGSKONTAKT"]; ?><br>
-              <a href="mailto:fusion@f.kth.se" class="text-white">fusion@f.kth.se</a>
-            </p>
+            <h5 style="text-align:center" class="lead"><?php echo $language["KONTAKT"]; ?></h5>
+            <div class="row">
+
+              <section class="col-md align-self-center">
+                <p style="text-align:center">
+                  <?php echo $language["FORETAGSKONTAKT"]; ?><br>
+                  <a href="mailto:fusion@f.kth.se" class="text-primary">fusion@f.kth.se</a>
+                </p>
+              </section>
+              <section class="col-md align-self-center">
+                <p style="text-align:center">
+                  <?php echo $language["PROJEKTGRUPPEN"]; ?><br>
+                  <a href="mailto:projektfusion@f.kth.se" class="text-primary">projektfusion@f.kth.se</a>
+                </p>
+              </section>
+              <section class="col-md align-self-center">
+                <p style="text-align:center">
+                  <?php echo $language["PROJEKTLEDARE"]; ?><br>
+                  <?php echo $language["LEDARE"]; ?><br>
+                  <a href="mailto:plfusion@f.kth.se" class="text-primary">plfusion@f.kth.se</a>
+                </p>
+              </section>
+            </div>
           </section>
           <section class="col-md">
-            <h5 class="lead mb-3"><?php echo $language["LANKAR"]; ?></h5>
-            <a href="https://www.facebook.com/fusionkth/"><i class="fab fa-facebook mr-4"></i></a>
-            <a href="https://www.instagram.com/fusionkth/"><i class="fab fa-instagram mr-4"></i></a>
-            <a href="https://f.kth.se/namnder/fn/"><img class="fab fysiksektionen mr-4" src="assets/images/fysiksektionen_white.png" alt="Fysiksektionens f"></a>
+            <h5 style="text-align:center" class="lead mb-3"><?php echo $language["LANKAR"]; ?></h5>
+            <div style="text-align:center">
+              <a href="https://www.facebook.com/fusionkth/"><i class="fab fa-facebook mr-4"></i></a>
+              <a href="https://www.instagram.com/fusionkth/"><i class="fab fa-instagram mr-4"></i></a>
+              <a href="https://f.kth.se/namnder/fn/"><img class="fab fysiksektionen mr-4" src="assets/images/fysiksektionen_white.png" alt="Fysiksektionens f"></a>
+            </div>
           </section>
         </div>
       </div>
