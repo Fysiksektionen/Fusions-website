@@ -1,7 +1,4 @@
-
-function change_lang() {
-    console.log("clicked");
-}
+// All script in this file is for fading nav bar on scroll.
 
 window.addEventListener("scroll", function(event) {
     var top = this.scrollY;
