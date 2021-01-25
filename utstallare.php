@@ -71,7 +71,6 @@
       <section class="bg-light">
         <div class="container">
           <div class="jumbotron text-center pb-0 pb-sm-4 mb-0">
-
             <h3 class="mb-4"><?php echo $language["HUVUDSPONSOR"]; ?></h3>
             <section class="card-deck text-center font-weight-light">
               <section class="card">

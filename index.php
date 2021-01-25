@@ -117,7 +117,6 @@
         </div>
       </section>
       <section>
-
         <div class="jumbotron mb-0 bg-secondary">
           <h3 class="text-white text-center">
             <?php echo $language["STORTTACK"]; ?>
@@ -128,7 +127,6 @@
         </div>
       </section>
       <section>
-
         <div class="jumbotron mb-0 bg-secondary">
           <h3 class="text-white text-center">
             <?php echo $language["PROJEKTGRUPP"]; ?>
