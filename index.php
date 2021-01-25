@@ -33,7 +33,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto bd-highlight d-flex align-items-center">
-                <li class="nav-item nav-link"><?php echo $language["BROSCHYR2021"]; ?></li>
+                <li class="nav-item"><a href="assets/broschyr/broschyr21.pdf" class="nav-link"><?php echo $language["BROSCHYR2021"]; ?></a></li>
                 <li class="nav-item"><a href="utstallare.php?lang=<?php echo $lang; ?>" class="nav-link"><?php echo $language["UTSTALLARE"]; ?></a></li>
                 <li class="nav-item"><a href="kontakt.php?lang=<?php echo $lang; ?>" class="nav-link"><?php echo $language["KONTAKT"]; ?></a></li>
                 <li class="nav-item"><a href="for_foretag.php?lang=<?php echo $lang; ?>" class="nav-link"><?php echo $language["FORFORETAG"]; ?></a></li>
@@ -57,6 +57,7 @@
                 <h1 class="display-4">
                   <img class="d-none d-sm-inline-block d-md-none font-size-img mb-2 mr-2" src="assets/images/logga_gammal.png" alt="Fusions logotyp">
                   <?php echo $language["FUSION21"]; ?>
+                  <a class="text-primary" href="https://fusion.graduateland.com"><?php echo $language["MASSAN"]; ?></a>
                 </h1>
                 <!-- <p class="lead">
                   <?php echo $language["MAIN1"]; ?>
@@ -90,7 +91,7 @@
                     <?php echo $language["TMF"]; ?>
                   </span>
                   <?php echo $language["VAD3"]; ?>
-                  <a class="text-primary" href="https://www.facebook.com/events/nymble/fusion-2019/781547758843195/"><?php echo $language["FB"]; ?></a>.
+                  <a class="text-primary" href="https://www.facebook.com/events/280336766521591"><?php echo $language["FB"]; ?></a>.
                 </p>
                 <hr class="text-dark">
                 <p class="my-4">
@@ -103,9 +104,11 @@
                 </a>
               </div>
               <div class="col-md align-self-center mx-auto">
-                <p class="lead my-3"><?php echo $language["PLATS"]; ?></p>
+                <p class="lead my-3"><?php echo $language["PLATS"]; ?>
+                <a class="text-primary" href="https://fusion.graduateland.com"><?php echo $language["GRADUATELAND"]; ?></a>
+                </p>
                 <p class="lead my-3"><?php echo $language["TID"]; ?>
-                <span class="text-primary font-weight-normal"><?php echo $language["TID2"]; ?></span>
+                <span class="text-dark font-weight-normal"><?php echo $language["TID2"]; ?></span>
                 <?php echo $language["TID3"]; ?>
                 </p>
               </div>
@@ -114,7 +117,16 @@
         </div>
       </section>
       <section>
-
+        <div class="jumbotron mb-0 bg-secondary">
+          <h3 class="text-white text-center">
+            <?php echo $language["STORTTACK"]; ?>
+          </h3>
+          <br>
+          <br>
+          <img class="img-fluid" src="assets/images/ericsson_fusion_test1.png" alt="Projektgruppen">
+        </div>
+      </section>
+      <section>
         <div class="jumbotron mb-0 bg-secondary">
           <h3 class="text-white text-center">
             <?php echo $language["PROJEKTGRUPP"]; ?>
@@ -146,9 +158,11 @@
         <div class="row font-weight-light">
           <section class="col-md">
             <h5 style="text-align:center" class="lead"><?php echo $language["HITTA"]; ?></h5>
-            <p style="text-align:center"><?php echo $language["VAR"]; ?><br>
-            <?php echo $language["ADRESS"]; ?><br>
-            <?php echo $language["ORT"]; ?></p>
+            <p style="text-align:center"><a class="text-primary" href="https://fusion.graduateland.com"><?php echo $language["ADRESS_GRAD"]; ?></a><br>
+            <!-- <?php echo $language["ADRESS"]; ?><br>
+            <?php echo $language["ORT"]; ?></p> -->
+            <br>
+            <a href="https://www.ericsson.com/en"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2021/ericsson.png" alt="Fysiksektionens f"></a>
           </section>
           <section class="col-md">
             <h5 style="text-align:center" class="lead"><?php echo $language["KONTAKT"]; ?></h5>
