@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kontakt</title>
+    <?php include 'p.php'; ?>
+    <title><?php echo $language["KONTAKT"]; ?></title>
     <!-- Bootstrap Core Css -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- font awesome css -->
@@ -14,16 +15,17 @@
     <script src="script.js?v=26"></script>
   </head>
   <body class="bg-light">
+    <!-- Include necessary recources -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-    <?php include 'p.php'; ?>
+
     <header>
       <nav id="mainNav" class="navbar fixed-top navbar-dark navbar-expand-md">
         <div class="container my-1">
           <div class="mb-auto">
             <a href="index.php?lang=<?php echo $lang; ?>" class="navbar-brand lead ml-3">
               <img class="logo" src="assets/images/logga_gammal.png" alt="Fusions logotyp">
-              Fusion
+              <?php echo $language["FUSION"]; ?>
             </a>
           </div>
           <div class="ml-auto">
@@ -32,7 +34,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto bd-highlight">
-                <li class="nav-item"><a href="assets/fusion_broschyr.pdf" class="nav-link"><?php echo $language["BROSCHYR"]; ?></a></li>
+                <li class="nav-item"><a href="assets/broschyr/broschyr21.pdf" class="nav-link"><?php echo $language["BROSCHYR2021"]; ?></a></li>
                 <li class="nav-item"><a href="utstallare.php?lang=<?php echo $lang; ?>" class="nav-link"><?php echo $language["UTSTALLARE"]; ?></a></li>
                 <li class="nav-item active"><a href="kontakt.php?lang=<?php echo $lang; ?>" class="nav-link"><?php echo $language["KONTAKT"]; ?></a></li>
                 <li class="nav-item"><a href="for_foretag.php?lang=<?php echo $lang; ?>" class="nav-link"><?php echo $language["FORFORETAG"]; ?></a></li>
@@ -61,15 +63,21 @@
           <div class="row text-dark justify-content-center">
             <div class="col-md-3">
               <p>
-                <span class="lead"><?php echo $language["PROJEKTANSVARIG"]; ?></span><br>
-                Oscar Wistemar<br>
+                <span class="lead"><?php echo $language["FORETAGSANSVARIGA"]; ?></span><br>
+                <a href="mailto:fusion@f.kth.se" class="text-primary">fusion@f.kth.se</a>
+              </p>
+            </div>
+            <div class="col-md-3">
+              <p>
+                <span class="lead"><?php echo $language["PROJEKTLEDARE"]; ?></span><br>
+                Oskar Bonde<br>
                 <a href="mailto:plfusion@f.kth.se" class="text-primary">plfusion@f.kth.se</a><br>
               </p>
             </div>
             <div class="col-md-3">
               <p>
-                <span class="lead"><?php echo $language["FORETAGSKONTAKT"]; ?></span><br>
-                <a href="mailto:fusion@f.kth.se" class="text-primary">fusion@f.kth.se</a>
+                <span class="lead"><?php echo $language["PROJEKTGRUPPEN"]; ?></span><br>
+                <a href="mailto:projektfusion@f.kth.se" class="text-primary">projektfusion@f.kth.se</a>
               </p>
             </div>
           </div>
@@ -85,76 +93,104 @@
             <div class="justify-content-center d-flex flex-wrap my-4">
               <div class="mx-4 my-2 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/Oscar.jpg" alt="Bild av projektansvarig Fusion 2020" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Oscar Wistemar<br><?php echo $language["PROJEKTANSVARIG"]; ?> <br><a href="mailto:plfusion@f.kth.se" class="text-dark">plfusion@f.kth.se</a></figcaption>
+                  <img src="assets/images/kontaktbilder/Oskar.jpg" alt="Bild av projektansvarig Fusion 2020" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Oskar Bonde<br><?php echo $language["PROJEKTLEDARE"]; ?> </figcaption>
                 </figure>
               </div>
             <div>
+
+              <h3>
+                <?php echo $language["FORETAGSANSVARIGA"]; ?>
+              </h3>
+
             <div class="justify-content-center d-flex flex-wrap">
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/Oskar.jpg" alt="Bild av marknadsföringsansvarig Fusion 2020" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Oskar Söderberg<br><?php echo $language["MARKNAD"]; ?></figcaption>
+                  <img src="assets/images/kontaktbilder/Samuel.jpg" alt="Bild av marknadsföringsansvarig Fusion 2020" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Samuel Tober</figcaption>
                 </figure>
               </div>
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/Marcus.jpg" alt="Bild av företagsansvarig Fusion 2020" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Marcus Johnson<br><?php echo $language["FORETAGSANSVARIG"]; ?></figcaption>
+                  <img src="assets/images/kontaktbilder/Leo.jpg" alt="Bild av företagsansvarig Fusion 2020" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Leo Tikkanen</figcaption>
                 </figure>
               </div>
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/Ludvig.jpg" alt="Bild av företagsansvarig Fusion 2020" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Ludvig Karlsson<br><?php echo $language["FORETAGSANSVARIG"]; ?></figcaption>
+                  <img src="assets/images/kontaktbilder/test.png" alt="Bild av företagsansvarig Fusion 2020" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Jakob Myhrman</figcaption>
                 </figure>
               </div>
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/HannesK.jpg" alt="Bild av företagsansvarig Fusion 2020" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Hannes Karlsson<br><?php echo $language["FORETAGSANSVARIG"]; ?></figcaption>
+                  <img src="assets/images/kontaktbilder/test.png" alt="Bild av företagsansvarig Fusion 2020" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Kiar Fatah</figcaption>
                 </figure>
               </div>
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/Alexander.jpg" alt="Bild av företagsansvarig Fusion 2020" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Alexander Björkenstam<br><?php echo $language["FORETAGSANSVARIG"]; ?></figcaption>
+                  <img src="assets/images/kontaktbilder/test.png" alt="Bild av företagsansvarig Fusion 2020" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Elliot Beskow</figcaption>
+                </figure>
+              </div>
+            </div>
+
+
+              <h3>
+                <?php echo $language["MASSAN"]; ?>
+              </h3>
+            <div class="justify-content-center d-flex flex-wrap">
+              <div class="m-4 justify-content-center">
+                <figure>
+                  <img src="assets/images/kontaktbilder/Astrid.jpg" alt="Bild av ekonomiansvarig Fusion 2020" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Astrid Schöldström<br><?php echo $language["LOGISTIKANSVARIG"]; ?></figcaption>
                 </figure>
               </div>
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/Hannes.jpg" alt="Bild av logistiksansvarig Fusion 2020" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Hannes Backe<br><?php echo $language["LOGISTIKANSVARIG"]; ?></figcaption>
+                  <img src="assets/images/kontaktbilder/Ludvig.jpg" alt="Bild av eventsansvarig Fusion 2020" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Ludvig Karlsson<br><?php echo $language["EVENTANSVARIG"]; ?></figcaption>
                 </figure>
               </div>
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/Jakob.jpg" alt="Bild av ekonomiansvarig Fusion 2020" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Jakob Myhrman<br><?php echo $language["EKONOMIANSVARIG"]; ?></figcaption>
+                  <img src="assets/images/kontaktbilder/test.png" alt="Bild av eventsansvarig Fusion 2020" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Andreas Winberg<br><?php echo $language["EKONOMIANSVARIG"]; ?></figcaption>
+                </figure>
+              </div>
+            </div>
+            <h3>
+              <?php echo $language["FEST"]; ?>
+            </h3>
+            <div class="justify-content-center d-flex flex-wrap">
+              <div class="m-4 justify-content-center">
+                <figure>
+                  <img src="assets/images/kontaktbilder/Frida.jpg" alt="Bild av sittningsansvarig Fusion 2020" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Frida Grönberg<br><?php echo $language["SITTNING"]; ?></figcaption>
                 </figure>
               </div>
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/Johan.jpg" alt="Bild av eventsansvarig Fusion 2020" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Johan Larsson<br><?php echo $language["EVENTANSVARIG"]; ?></figcaption>
+                  <img src="assets/images/kontaktbilder/Rebecca.jpg" alt="Bild av sittningsansvarig Fusion 2020" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Rebecca Remling<br><?php echo $language["SITTNING"]; ?></figcaption>
+                </figure>
+              </div>
+            </div>
+            <h3>
+              <?php echo $language["PR"]; ?>
+            </h3>
+            <div class="justify-content-center d-flex flex-wrap">
+              <div class="m-4 justify-content-center">
+                <figure>
+                  <img src="assets/images/kontaktbilder/Oscar.jpg" alt="Bild av sittningsansvarig Fusion 2020" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Oscar Wistemar<br><?php echo $language["MARKNAD"]; ?></figcaption>
                 </figure>
               </div>
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/Hanna.jpg" alt="Bild av sittningsansvarig Fusion 2020" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Hanna Kylhammar<br><?php echo $language["SITTNINGSANSVARIG"]; ?></figcaption>
-                </figure>
-              </div>
-              <div class="m-4 justify-content-center">
-                <figure>
-                  <img src="assets/images/kontaktbilder/Adam.jpg" alt="Bild av sittningsansvarig Fusion 2020" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Adam Erlandsson<br><?php echo $language["SITTNINGSANSVARIG"]; ?></figcaption>
-                </figure>
-              </div>
-              <div class="m-4 justify-content-center">
-                <figure>
-                  <img src="assets/images/kontaktbilder/Cornelia.jpg" alt="Bild av CL-representant Fusion 2020" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Cornelia Holm<br><?php echo $language["CL"]; ?></figcaption>
+                  <img src="assets/images/kontaktbilder/Evelina.jpg" alt="Bild av sittningsansvarig Fusion 2020" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Evelina Stenseth<br><?php echo $language["DESIGN"]; ?></figcaption>
                 </figure>
               </div>
             </div>
@@ -166,25 +202,45 @@
       <div class="container py-4">
         <div class="row font-weight-light">
           <section class="col-md">
-            <h5 class="lead"><?php echo $language["HITTA"]; ?></h5>
-            <p>Nymble<br>
-            <?php echo $language["ADRESS"]; ?><br>
-            <?php echo $language["ORT"]; ?></p>
+            <h5 style="text-align:center" class="lead"><?php echo $language["HITTA"]; ?></h5>
+            <p style="text-align:center"><a class="text-primary" href="https://fusion.graduateland.com"><?php echo $language["ADRESS_GRAD"]; ?></a><br>
+              <!-- <?php echo $language["ADRESS"]; ?><br>
+              <?php echo $language["ORT"]; ?></p> -->
+              <br>
+              <a href="https://www.ericsson.com/en"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2021/ericsson.png" alt="Fysiksektionens f"></a>
           </section>
           <section class="col-md">
-            <h5 class="lead"><?php echo $language["KONTAKT"]; ?></h5>
-            <p>
-              <?php echo $language["PROJEKTLEDARE"]; ?><br>
-              <a href="mailto:plfusion@f.kth.se" class="text-white">plfusion@f.kth.se</a><br>
-              <?php echo $language["FORETAGSKONTAKT"]; ?><br>
-              <a href="mailto:fusion@f.kth.se" class="text-white">fusion@f.kth.se</a>
-            </p>
+            <h5 style="text-align:center" class="lead"><?php echo $language["KONTAKT"]; ?></h5>
+            <div class="row">
+
+              <section class="col-md align-self-center">
+                <p style="text-align:center">
+                  <?php echo $language["FORETAGSKONTAKT"]; ?><br>
+                  <a href="mailto:fusion@f.kth.se" class="text-primary">fusion@f.kth.se</a>
+                </p>
+              </section>
+              <section class="col-md align-self-center">
+                <p style="text-align:center">
+                  <?php echo $language["PROJEKTGRUPPEN"]; ?><br>
+                  <a href="mailto:projektfusion@f.kth.se" class="text-primary">projektfusion@f.kth.se</a>
+                </p>
+              </section>
+              <section class="col-md align-self-center">
+                <p style="text-align:center">
+                  <?php echo $language["PROJEKTLEDARE"]; ?><br>
+                  <?php echo $language["LEDARE"]; ?><br>
+                  <a href="mailto:plfusion@f.kth.se" class="text-primary">plfusion@f.kth.se</a>
+                </p>
+              </section>
+            </div>
           </section>
           <section class="col-md">
-            <h5 class="lead mb-3"><?php echo $language["LANKAR"]; ?></h5>
-            <a href="https://www.facebook.com/fusionkth/"><i class="fab fa-facebook mr-4"></i></a>
-            <a href="https://www.instagram.com/fusionkth/"><i class="fab fa-instagram mr-4"></i></a>
-            <a href="https://f.kth.se/namnder/fn/"><img class="fab fysiksektionen mr-4" src="assets/images/fysiksektionen_white.png" alt="Fysiksektionens f"></a>
+            <h5 style="text-align:center" class="lead mb-3"><?php echo $language["LANKAR"]; ?></h5>
+            <div style="text-align:center">
+              <a href="https://www.facebook.com/fusionkth/"><i class="fab fa-facebook mr-4"></i></a>
+              <a href="https://www.instagram.com/fusionkth/"><i class="fab fa-instagram mr-4"></i></a>
+              <a href="https://f.kth.se/namnder/fn/"><img class="fab fysiksektionen mr-4" src="assets/images/fysiksektionen_white.png" alt="Fysiksektionens f"></a>
+            </div>
           </section>
         </div>
       </div>
