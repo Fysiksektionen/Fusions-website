@@ -29,11 +29,22 @@ TABLE OF CONTENTS
 1.1 html
 ================================================================================
 */
+@import url(https://fonts.googleapis.com/css?family=Inter);
+@import url(https://fonts.googleapis.com/css?family=Work-Sans);
+
+
+
+
 
 html {
   position: relative;
   min-height: 100%;
   scroll-behavior: smooth;
+}
+
+.navbar-nav a{
+  color: #1A2B47 !important;
+  font-weight: 400;
 }
 
 /*
@@ -44,6 +55,8 @@ html {
 
 body {
   line-height: 1.5em;
+  font-family: Inter, Arial;
+  font-weight: 300;
 }
 
 .hr-light {
@@ -51,11 +64,12 @@ body {
 }
 
 .text-primary {
-  color: #ee6d3e !important;
+  color: #1A2B47 !important;
+  font-weight: 700;
 }
 
 .text-secondary {
-  color: #1a2b47 !important;
+  color: #1A2B47 !important;
 }
 
 .text-note {
@@ -73,16 +87,18 @@ body {
 }
 
 .bg-image {
-  background-image: url("../images/blur_blue.jpg") !important;
+  background-image: url("../images/elem.svg") !important;
 }
 
 .bg-primary {
-  background-color: #ee6d3e !important;#FF642B,
+  background-color: #F8F9FA !important; #
 }
 
 .bg-secondary {
-  background-color: #1a2b47 !important;
+  background-color: #1A2B47 !important;
 }
+
+
 
 
 
@@ -93,12 +109,14 @@ body {
 */
 
 .btn-primary {
-  background-color: #ee6d3e;
-  border-color: #ee6d3e;
+  background-color: #F26530;
+  border-color: #F26530;
+
 }
 .btn-primary:hover {
   background-color: #a84300;
   border-color: #a84300;
+  cursor: pointer;
 }
 .btn-primary:active, .btn-primary:focus {
   background-color: #662900 !important;
@@ -117,9 +135,9 @@ body {
 */
 
 .logo {
-  max-height: 40px;
+  max-height: 70px;
   margin-right: 8px;
-  padding-bottom: 2px;
+  padding-bottom: 1px;
 }
 
 .after-nav {
@@ -145,7 +163,7 @@ body {
 }
 
 .full-background {
-  background-size: cover;
+  background-size: 180rem;
 }
 
 /*
@@ -238,7 +256,7 @@ h1 {
 }
 
 h2 {
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .in {
@@ -260,6 +278,17 @@ h2 {
   height: 1em;
 }
 
+.name-front-page {
+  color: #F26530;
+  font-weight: 650;
+  font-size: 7rem;
+}
+
+.text-front-page {
+  font-family: "Work Sans", Arial;
+  font-weight: 300;
+  color: #F26530;
+}
 /*
 ================================================================================
 4. Footer
@@ -269,10 +298,20 @@ h2 {
 */
 
 footer {
-	color: #ffffff !important;
+	color: white !important;
 	bottom: 0;
 	width: 100%;
+  padding-top: 3rem;
 }
+
+.bg-footer {
+  background-color: #F26530 !important;
+}
+
+.link-footer {
+  color: white !important;
+}
+
 
 /*
 ================================================================================

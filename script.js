@@ -4,12 +4,12 @@ window.addEventListener("scroll", function(event) {
     var top = this.scrollY;
     navHeight = document.getElementById("mainNav").offsetHeight;
     if ($("#navbarNav").is(":visible") && $("#togg").is(":visible"))
-      mainNav.style.backgroundColor = "rgba(26, 43, 71, "+ 1 / 1.05 + ")";
+      mainNav.style.backgroundColor = "rgb(255, 255, 255, "+ 1 / 1.05 + ")";
     else if(top < navHeight) {
-      mainNav.style.backgroundColor = "rgba(26, 43, 71, "+ top / (navHeight * 1.05) + ")";
+      mainNav.style.backgroundColor = "rgb(255, 255, 255, "+ top / (navHeight * 1.05) + ")";
     }
     else if(top >= document.getElementById("mainNav").offsetHeight) {
-      mainNav.style.backgroundColor = "rgba(26, 43, 71, "+ 1 / 1.05 + ")";
+      mainNav.style.backgroundColor = "rgb(255, 255, 255, "+ 1 / 1.05 + ")";
     }
 }, false);
 
@@ -17,12 +17,12 @@ window.onload = function() {
   document.getElementById("togg").addEventListener("click", function(event){
     var navbottom = window.scrollY + document.getElementById("mainNav").offsetHeight;
     if(!$("#navbarNav").is(":visible")) {
-      $("#mainNav").css('background-color', 'rgba(26, 43, 71, 0.95)');
+      $("#mainNav").css('background-color', 'rgb(255, 255, 255, 0.95)');
     }
     else {
       var top = window.scrollY;
       navHeight = document.getElementById("mainNav").offsetHeight;
-      $("#mainNav").css('background-color', 'rgba(26, 43, 71, ' + top / (navHeight * 1.05) + ')');
+      $("#mainNav").css('background-color', 'rgb(255, 255, 255, ' + top / (navHeight * 1.05) + ')');
     }
   });
   document.getElementById("arrow").addEventListener("click", function(event){
