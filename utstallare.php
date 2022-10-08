@@ -2,11 +2,10 @@
 <title><?php echo $language["UTSTALLARETITEL"]; ?></title>
 </head>
     <main>
-      <section class="after-nav bg-image full-background pb-2">
-    			<div class="text-light container bg-transparent rounded-0">
-            <div class="jumbotron mb-0 mt-4 py-2">
-              <h1 class="display-4"><?php echo $language["UTSTALLARE"]; ?></h1>
-            </div>
+      <section class="after-nav bg-primary full-background pb-2">
+        <div class="text-primary container bg-transparent rounded-0">
+          <div class="jumbotron mb-0 mt-4 py-2">
+            <h1 class="display-4"><?php echo $language["UTSTALLARE"]; ?></h1>
           </div>
         </div>
       </section>

@@ -1,16 +1,15 @@
 <?php include_once("header.php") ?>
 <title><?php echo $language["KONTAKTTITEL"]; ?></title>¨
 </head>
-
     <main>
-      <section class="after-nav bg-image full-background pb-2">
-    			<div class="text-light container bg-transparent rounded-0">
-            <div class="jumbotron mb-0 mt-4 py-2">
-              <h1 class="display-4"><?php echo $language["KONTAKT"]; ?></h1>
-            </div>
+      <section class="after-nav bg-primary full-background pb-2">
+        <div class="text-primary container bg-transparent rounded-0">
+          <div class="jumbotron py-2">
+            <h1 class="display-4"><?php echo $language["KONTAKT"]; ?></h1>
           </div>
         </div>
       </section>
+
       <section class="bg-light">
         <div class="container jumbotron mb-0 text-center">
           <h2 class="text-dark mb-4">

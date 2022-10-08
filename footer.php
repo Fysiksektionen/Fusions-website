@@ -3,9 +3,10 @@
         <div class="row font-weight-light">
           <section class="col-md">
             <h5 style="text-align:center" class="lead"><?php echo $language["HITTA"]; ?></h5>
-            <p style="text-align:center;"><a class="link-footer" href="https://fusion.graduateland.com/"><?php echo $language["ADRESS_GRAD"]; ?></a><br>
-              <!-- <?php echo $language["ADRESS"]; ?><br>
-              <?php echo $language["ORT"]; ?></p> -->
+            <p style="text-align:center;">
+              <a class="link-footer" href="https://goo.gl/maps/bpUsnSQv8GTChSLA8">
+              <?php echo $language["ADRESS"]; ?><br>
+              <?php echo $language["ORT"]; ?></p>
               <br>
             <!---  <a href="https://www.ericsson.com/en"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2021/ericsson.png" alt="Fysiksektionens f"></a>
             --->
@@ -40,14 +41,15 @@
             <div style="text-align:center">
               <a href="https://www.facebook.com/fusionkth/"><i class="fab fa-facebook mr-4"></i></a>
               <a href="https://www.instagram.com/fusionkth/"><i class="fab fa-instagram mr-4"></i></a>
-              <a href="https://f.kth.se/namnder/fn/"><img class="fab fysiksektionen mr-4" src="assets/images/fysiksektionen_white.png" alt="Fysiksektionens f"></a>
+              <a href="https://f.kth.se/namnder/fn/"><img class="fab fysiksektionen" src="assets/images/fysiksektionen_white.png" alt="Fysiksektionens f"></a>
             </div>
           </section>
         </div>
       </div>
       <div>
         <p class="text-white m-0 text-right text-note p-2">
-          <?php echo $language["UTVECKLAD"]; ?>
+          <?php echo $language["UTVECKLAD"]; ?><br>
+          <?php echo $language["UPPDATERAD"]; ?>
         </p>
       </div>
     </footer>
