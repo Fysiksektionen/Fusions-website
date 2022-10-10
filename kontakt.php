@@ -48,11 +48,17 @@
             <div class="justify-content-center d-flex flex-wrap my-4">
               <div class="mx-4 my-2 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/david.jpg" alt="Bild av projektansvarig Fusion 2022" class="size230 rounded-circle">
+                  <img src="assets/images/kontaktbilder/2023/evelina.jpg" alt="Bild av projektansvarig Fusion 2022" class="size230 rounded-circle">
                   <figcaption class="my-3 font-weight-light text-center"><?php echo $language["LEDARE"]; ?><br><?php echo $language["PROJEKTLEDARE"]; ?> </figcaption>
                 </figure>
               </div>
             <div>
+                <div class="mx-4 my-2 justify-content-center">
+                    <figure>
+                        <img src="assets/images/kontaktbilder/2023/tomas.jpg" alt="Vice projektansvarig" class="size230 rounded-circle">
+                        <figcaption class="my-3 font-weight-light text-center">Tomas Nordström<br><?php echo $language["VICEPROJEKTLEDARE"]; ?></figcaption>
+                    </figure>
+                </div>
 
               <h3>
                 <?php echo $language["FORETAGSANSVARIGA"]; ?>
@@ -62,8 +68,8 @@
 
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/arvid.jpg" alt="Säljansvarig" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Arvid Winterfeldt<br><?php echo $language["SALJCHEF"]; ?></figcaption>
+                  <img src="assets/images/kontaktbilder/2023/love.jpg" alt="Säljansvarig" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Love Redin<br><?php echo $language["SALJCHEF"]; ?></figcaption>
                 </figure>
               </div>
 
@@ -71,16 +77,34 @@
             <div class="justify-content-center d-flex flex-wrap">
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/jacob.jpg" alt="Säljare" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Jacob Otterling<br><?php echo $language["SALJARE"]; ?></figcaption>
+                  <img src="assets/images/kontaktbilder/2023/filip.jpg" alt="Säljare" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Filip Stål<br><?php echo $language["SALJARE"]; ?></figcaption>
                 </figure>
               </div>
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/fabian.jpg" alt="Säljare" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Fabian Rudengren<br><?php echo $language["SALJARE"]; ?></figcaption>
+                  <img src="assets/images/kontaktbilder/2023/wilhelm.jpg" alt="Säljare" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Wilhelm Sigurd<br><?php echo $language["SALJARE"]; ?></figcaption>
                 </figure>
               </div>
+                <div class="m-4 justify-content-center">
+                    <figure>
+                        <img src="assets/images/kontaktbilder/2023/stina.jpg" alt="Säljare" class="size230 rounded-circle">
+                        <figcaption class="my-3 font-weight-light text-center">Stina Gustavsson<br><?php echo $language["SALJARE"]; ?></figcaption>
+                    </figure>
+                </div>
+                <div class="m-4 justify-content-center">
+                    <figure>
+                        <img src="assets/images/kontaktbilder/2023/adrian.jpg" alt="Säljare" class="size230 rounded-circle">
+                        <figcaption class="my-3 font-weight-light text-center">Adrian Vågberg<br><?php echo $language["SALJARE"]; ?></figcaption>
+                    </figure>
+                </div>
+                <div class="m-4 justify-content-center">
+                    <figure>
+                        <img src="assets/images/kontaktbilder/2023/vilhelm.jpg" alt="Säljare" class="size230 rounded-circle">
+                        <figcaption class="my-3 font-weight-light text-center">Vilhelm Karlin<br><?php echo $language["SALJARE"]; ?></figcaption>
+                    </figure>
+                </div>
 
             <!---
               <div class="m-4 justify-content-center">
@@ -122,20 +146,14 @@
             <div class="justify-content-center d-flex flex-wrap">
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/rebecka.jpg" alt="Logistikansvarig" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Rebecka Johansson<br><?php echo $language["LOGISTIKANSVARIG"]; ?></figcaption>
+                  <img src="assets/images/kontaktbilder/test.jpg" alt="Logistikansvarig och kassör" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Frida Ekner<br><?php echo $language["LOGISTIKANSVARIG"] . "/" . $language["EKONOMIANSVARIG"]; ?></figcaption>
                 </figure>
               </div>
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/test.jpg" alt="Eventansvarig" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Filip Stål<br><?php echo $language["EVENTANSVARIG"]; ?></figcaption>
-                </figure>
-              </div>
-              <div class="m-4 justify-content-center">
-                <figure>
-                  <img src="assets/images/kontaktbilder/oskar.jpg" alt="Ekonomiansvarig" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Oskar Bonde<br><?php echo $language["EKONOMIANSVARIG"]; ?></figcaption>
+                  <img src="assets/images/kontaktbilder/2023/simon.jpg" alt="Ansvarig forskarhörnan" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">Simon Thor<br><?php echo $language["FORSKARANSVARIG"]; ?></figcaption>
                 </figure>
               </div>
             </div>
@@ -145,14 +163,14 @@
             <div class="justify-content-center d-flex flex-wrap">
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/emil.jpg" alt="Sittningsansvarig" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Emil Ulander<br><?php echo $language["SITTNING"]; ?></figcaption>
+                  <img src="assets/images/kontaktbilder/test.jpg" alt="Sittningsansvarig" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">TBD<br><?php echo $language["SITTNING"]; ?></figcaption>
                 </figure>
               </div>
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/joel.jpg" alt="Marknadsföringsansvarig" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">Joel Wållberg<br><?php echo $language["MARKNAD"]; ?>/<?php echo $language["DESIGN"]; ?></figcaption>
+                  <img src="assets/images/kontaktbilder/test.jpg" alt="Marknadsföringsansvarig" class="size230 rounded-circle">
+                  <figcaption class="my-3 font-weight-light text-center">TBD<br><?php echo $language["MARKNAD"]; ?></figcaption>
                 </figure>
               </div>
             <!---

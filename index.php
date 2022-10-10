@@ -93,7 +93,7 @@
           </h3>
           <br>
           <br>
-          <img class="img-fluid" src="assets/images/gruppbilder/fusion2022_2.jpg" alt="Projektgruppen">
+          <img class="img-fluid" src="assets/images/gruppbilder/projektgruppen2023.jpg" alt="Projektgruppen">
         </div>
       </section>
 
