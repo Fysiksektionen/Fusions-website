@@ -94,7 +94,7 @@ if ($lang == "sv") {
                     #"PREMIUMPARTNERSKAP" => "Premiumpartnerskap",
                     #"PREMIUMTEXT" => "(*) Premiumpartnerskap innefattar företagets logga på mässkarta, fotovägg under mässa och bankett, i sektionslokalen under januari, på tröja för projektgrupp och värdar samt på bankettbiljetter. Även en egen sida i bankettens sångblad.",
                     "UTVECKLAD" => "Hemsidan utvecklades av Oskar Söderberg och underhålls av Joel Wållberg",
-                    "UPPDATERAD" => "Uppdaterad av Adrian Vågberg 2022-10-07",
+                    "UPPDATERAD" => "Uppdaterad av Adrian Vågberg 2022-10-10",
                     "BROSCHYR2022" => "Broschyr 2022",
                     "BROSCHYR2021" => "Broschyr 2021",
                     "BROSCHYR2020" => "Broschyr 2020",
@@ -102,7 +102,12 @@ if ($lang == "sv") {
                     "HEMTITEL" => "Fusion | Fysiksektionens arbetsmarknadsmässa",
                     "KONTAKTTITEL" => "Kontakt | Fusion",
                     "FORFORETAGTITEL" => "För företag | Fusion",
-                    "UTSTALLARETITEL" => "Utställare | Fusion"
+                    "UTSTALLARETITEL" => "Utställare | Fusion",
+                    "BLIHUVUDSPONSOR" => "Vill ni synas här och på andra ställen innan och under Fusion genom extra evenemang och marknadsföring? Bli huvudsponsorer för årets mässa!",
+                    "KONTAKTAOSS" => "Kontakta oss på ",
+                    "MAILFORETAGSKONTAKT" => "fusion@f.kth.se",
+                    "MAILPL" => "plfusion@f.kth.se",
+                    "MAILPROJEKTGRUPPEN" => "projektfusion@f.kth.se"
                     );
 }
 else {
@@ -200,7 +205,12 @@ else {
                     "HEMTITEL" => "Fusion | The Physics Chapter's Career Fair",
                     "KONTAKTTITEL" => "Contact us | Fusion",
                     "FORFORETAGTITEL" => "For exhibitors | Fusion",
-                    "UTSTALLARETITEL" => "Exhibitors | Fusion"
+                    "UTSTALLARETITEL" => "Exhibitors | Fusion",
+                    "BLIHUVUDSPONSOR" => "Are you interested being the highlight of this year's career fair through extended marketing (for example right here) and hosting extra events? Become a main sponsor!",
+                    "KONTAKTAOSS" => "Contact us at ",
+                    "MAILFORETAGSKONTAKT" => "fusion@f.kth.se",
+                    "MAILPL" => "plfusion@f.kth.se",
+                    "MAILPROJEKTGRUPPEN" => "projektfusion@f.kth.se"
                     );
 }
 
