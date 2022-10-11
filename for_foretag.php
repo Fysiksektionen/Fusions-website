@@ -103,22 +103,22 @@
                   </tr>
                   <tr>
                     <th scope="row"><?php echo $language["LUNCHBILJETTER"]; ?></th>
-                    <td>3</td>
-                    <td>5</td>
+                    <td><?php echo $language["TILLSAMTLIGA"]; ?></td>
+                    <td><?php echo $language["TILLSAMTLIGA"]; ?></td>
                     <td><?php echo $language["TILLSAMTLIGA"]; ?></td>
                   </tr>
 
                   <tr>
                     <th scope="row"><?php echo $language["LUNCHFOREL"]; ?></th>
                     <td></td>
-                    <td>&#10004;</td>
-                    <td>&#10004;</td>
+                    <td>1</td>
+                    <td>2</td>
                   </tr>
                   <tr>
                     <th scope="row"><?php echo $language["BANKETTBILJETTER"]; ?></th>
-                    <td></td>
                     <td>2</td>
-                    <td><?php echo $language["TILLSAMTLIGA"]; ?></td>
+                    <td>4</td>
+                    <td>6</td>
                   </tr>
                   <tr>
                     <th scope="row"><?php echo $language["PREMIUMPARTNERSKAP"]; ?></th>
