@@ -50,8 +50,7 @@
       </div>
       <div>
         <p class="text-white m-0 text-right text-note p-2">
-          <?php echo $language["UTVECKLAD"]; ?><br>
-          <?php echo $language["UPPDATERAD"]; ?>
+          <?php echo $language["UTVECKLAD"]; ?>
         </p>
       </div>
     </footer>
