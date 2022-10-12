@@ -4,7 +4,7 @@
 
     <main>
 
-      <section class="bg-image full-background pb-2 min-vh-100 d-flex align-items-center">
+      <section class="bg-image mt-lg-5 d-flex align-items-center">
 
         <div class="container">
 
@@ -14,7 +14,7 @@
               <div class="col text-center text-md-left">
                 <h1 class="display-4">
                   <p class="name-front-page">
-                     FUSION <span style="font-size: 4rem">2022</span>
+                      <?php echo strtoupper($language["FUSION"] . " "); ?><span style="font-size: 4rem"><?php echo $language["YEAR"]; ?></span>
                   </p>
 
                 </h1>
@@ -59,12 +59,14 @@
               </a>
             </div>
             <div class="col-md align-self-center mx-auto">
-            <p class="lead my-3"><?php echo $language["PLATS"]; ?>
-            <a class="text-primary" href="https://fusion.graduateland.com/event/5810">Graduateland</a>
+            <p class="lead my-3">
+                <span class="text-dark font-weight-normal"><?php echo $language["PLATS"]; ?></span>
+                <?php echo $language["ADRESS"]; ?>
             </p>
-            <p class="lead my-3"><?php echo $language["TID"]; ?>
-            <span class="text-dark font-weight-normal"><?php echo $language["TID2"]; ?></span>
-            <?php echo $language["TID3"]; ?>
+            <p class="lead my-3">
+                <span class="text-dark font-weight-normal"><?php echo $language["TID"]; ?></span>
+                <?php echo $language["TID2"]; ?>
+                <?php echo $language["TID3"]; ?>
             </p>
             </div>
             </div>
@@ -91,18 +93,23 @@
           </h3>
           <br>
           <br>
-          <img class="img-fluid" src="assets/images/gruppbilder/fusion2022_2.jpg" alt="Projektgruppen">
+          <img class="img-fluid" src="assets/images/gruppbilder/projektgruppen2023.jpg" alt="Projektgruppen">
         </div>
       </section>
 
       <div class="jumbotron text-center pb-0 pb-sm-4 mb-0">
 
         <h3 class="mb-4"><?php echo $language["HUVUDSPONSOR"]; ?></h3>
-        <section class="card-deck text-center font-weight-light">
+        <!--<section class="card-deck text-center font-weight-light">
           <section class="card">
             <a href="https://www.ericsson.com/en" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/ericsson.png" alt="Ericssons logotyp"></a>
           </section>
-        </section>
+        </section>-->
+        <p class="my-4">
+            <?php echo $language["BLIHUVUDSPONSOR"]; ?><br>
+            <?php echo $language["KONTAKTAOSS"]; ?>
+            <a href="mailto:fusion@f.kth.se" class="text-primary"><?php echo $language["MAILFORETAGSKONTAKT"]; ?></a>
+        </p>
       </div>
 
     </main>

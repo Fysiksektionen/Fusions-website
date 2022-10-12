@@ -3,9 +3,12 @@
         <div class="row font-weight-light">
           <section class="col-md">
             <h5 style="text-align:center" class="lead"><?php echo $language["HITTA"]; ?></h5>
-            <p style="text-align:center;"><a class="link-footer" href="https://fusion.graduateland.com/"><?php echo $language["ADRESS_GRAD"]; ?></a><br>
-              <!-- <?php echo $language["ADRESS"]; ?><br>
-              <?php echo $language["ORT"]; ?></p> -->
+            <p style="text-align:center;">
+              <a class="link-footer" href="https://goo.gl/maps/bpUsnSQv8GTChSLA8">
+              <?php echo $language["ADRESS"]; ?><br>
+              <?php echo $language["ORT"]; ?></a>
+            </p>
+
               <br>
             <!---  <a href="https://www.ericsson.com/en"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2021/ericsson.png" alt="Fysiksektionens f"></a>
             --->
@@ -17,20 +20,20 @@
               <section class="col-md align-self-center">
                 <p style="text-align:center">
                   <?php echo $language["FORETAGSKONTAKT"]; ?><br>
-                  <a href="mailto:fusion@f.kth.se" class="link-footer">fusion@f.kth.se</a>
+                  <a href="mailto:fusion@f.kth.se" class="link-footer"><?php echo $language["MAILFORETAGSKONTAKT"]; ?></a>
                 </p>
               </section>
               <section class="col-md align-self-center">
                 <p style="text-align:center">
                   <?php echo $language["PROJEKTGRUPPEN"]; ?><br>
-                  <a href="mailto:projektfusion@f.kth.se" class="link-footer">projektfusion@f.kth.se</a>
+                  <a href="mailto:projektfusion@f.kth.se" class="link-footer"><?php echo $language["MAILPROJEKTGRUPPEN"]; ?></a>
                 </p>
               </section>
               <section class="col-md align-self-center">
                 <p style="text-align:center">
                   <?php echo $language["PROJEKTLEDARE"]; ?><br>
                   <?php echo $language["LEDARE"]; ?><br>
-                  <a href="mailto:plfusion@f.kth.se" class="link-footer">plfusion@f.kth.se</a>
+                  <a href="mailto:plfusion@f.kth.se" class="link-footer"><?php echo $language["MAILPL"]; ?></a>
                 </p>
               </section>
             </div>
@@ -40,7 +43,7 @@
             <div style="text-align:center">
               <a href="https://www.facebook.com/fusionkth/"><i class="fab fa-facebook mr-4"></i></a>
               <a href="https://www.instagram.com/fusionkth/"><i class="fab fa-instagram mr-4"></i></a>
-              <a href="https://f.kth.se/namnder/fn/"><img class="fab fysiksektionen mr-4" src="assets/images/fysiksektionen_white.png" alt="Fysiksektionens f"></a>
+              <a href="https://f.kth.se/namnder/fn/"><img class="fab fysiksektionen" src="assets/images/fysiksektionen_white.png" alt="Fysiksektionens f"></a>
             </div>
           </section>
         </div>

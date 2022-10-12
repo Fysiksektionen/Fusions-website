@@ -2,11 +2,10 @@
 <title><?php echo $language["UTSTALLARETITEL"]; ?></title>
 </head>
     <main>
-      <section class="after-nav bg-image full-background pb-2">
-    			<div class="text-light container bg-transparent rounded-0">
-            <div class="jumbotron mb-0 mt-4 py-2">
-              <h1 class="display-4"><?php echo $language["UTSTALLARE"]; ?></h1>
-            </div>
+      <section class="after-nav bg-primary full-background pb-2">
+        <div class="text-primary container bg-transparent rounded-0">
+          <div class="jumbotron mb-0 mt-4 py-2">
+            <h1 class="display-4"><?php echo $language["UTSTALLARE"]; ?></h1>
           </div>
         </div>
       </section>
@@ -29,11 +28,16 @@
           <div class="jumbotron text-center pb-0 pb-sm-4 mb-0">
 
             <h3 class="mb-4"><?php echo $language["HUVUDSPONSOR"]; ?></h3>
-            <section class="card-deck text-center font-weight-light">
+            <!--<section class="card-deck text-center font-weight-light">
               <section class="card">
                 <a href="https://www.ericsson.com/en" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/ericsson.png" alt="Ericssons logotyp"></a>
               </section>
-            </section>
+            </section>-->
+              <p class="my-4">
+                  <?php echo $language["BLIHUVUDSPONSOR"]; ?><br>
+                  <?php echo $language["KONTAKTAOSS"]; ?>
+                  <a href="mailto:fusion@f.kth.se" class="text-primary"><?php echo $language["MAILFORETAGSKONTAKT"]; ?></a>
+              </p>
           </div>
           <div class="jumbotron text-center py-0 py-sm-4 mb-0">
             <h2 class="mb-4"><?php echo $language["UTSTALLARE2022"]; ?></h2>

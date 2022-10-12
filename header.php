@@ -33,8 +33,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto bd-highlight d-flex align-items-center">
-                <!--<li class="nav-item"><a href="" class="nav-link"><?php echo $language["BROSCHYR2022"]; ?></a></li> -->
-                <li class="nav-item"><a href="https://fusion.graduateland.com/event/5810" class="nav-link"><?php echo $language["BESOKMASSAN"]; ?></a></li>
+                <!--<li class="nav-item"><a href="" class="nav-link"><?php echo $language["BROSCHYR2022"]; ?></a></li>
+                <li class="nav-item"><a href="https://fusion.graduateland.com/event/5810" class="nav-link"><?php echo $language["BESOKMASSAN"]; ?></a></li>-->
                 <li class="nav-item"><a href="utstallare.php?lang=<?php echo $lang; ?>" class="nav-link"><?php echo $language["UTSTALLARE"]; ?></a></li>
                 <li class="nav-item"><a href="kontakt.php?lang=<?php echo $lang; ?>" class="nav-link"><?php echo $language["KONTAKT"]; ?></a></li>
                 <li class="nav-item"><a href="for_foretag.php?lang=<?php echo $lang; ?>" class="nav-link"><?php echo $language["FORFORETAG"]; ?></a></li>

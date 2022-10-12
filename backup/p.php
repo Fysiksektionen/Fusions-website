@@ -9,7 +9,7 @@ if(isset($_GET['lang'])){
 // Enter strings in swedish here and english below.
 if ($lang == "sv") {
   $language = array("FUSION" => "Fusion",
-                    "FUSION22" => "FUSION 2022",
+                    "FUSION23" => "FUSION 2023",
                     "UTSTALLARE" => "Utställare",
                     "KONTAKT" => "Kontakt",
                     "FORFORETAG" => "För företag",
@@ -93,7 +93,7 @@ if ($lang == "sv") {
 }
 else {
   $language = array("FUSION" => "Fusion",
-                    "FUSION22" => "Fusion 2022",
+                    "FUSION23" => "Fusion 2023",
                     "UTSTALLARE" => "Exhibitors",
                     "KONTAKT" => "Contact",
                     "FORFORETAG" => "For exhibitors",

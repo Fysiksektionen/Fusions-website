@@ -2,14 +2,14 @@
 <title><?php echo $language["FORFORETAGTITEL"]; ?></title>
 </head>
     <main>
-      <section class="after-nav bg-image full-background pb-2">
-    			<div class="text-light container bg-transparent rounded-0">
-            <div class="jumbotron mb-0 mt-4 py-2">
-              <h1 class="display-4"><?php echo $language["FORFORETAG"]; ?></h1>
-            </div>
+      <section class="after-nav bg-primary full-background pb-2">
+        <div class="text-primary container bg-transparent rounded-0">
+          <div class="jumbotron mb-0 mt-4 py-2">
+            <h1 class="display-4"><?php echo $language["FORFORETAG"]; ?></h1>
           </div>
         </div>
       </section>
+
       <section class="bg-light">
         <div class="container">
           <div class="jumbotron mb-0">
@@ -79,15 +79,15 @@
                   </tr>
                   <tr>
                     <th scope="row"><?php echo $language["FORETAGSVARD"]; ?></th>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
                   </tr>
                   <tr>
                     <th scope="row"><?php echo $language["SOCIALMEDIA"]; ?></th>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
                   </tr>
                   <tr>
                     <th scope="row"><?php echo $language["SIDORIBROSCHYR"]; ?></th>
@@ -103,28 +103,28 @@
                   </tr>
                   <tr>
                     <th scope="row"><?php echo $language["LUNCHBILJETTER"]; ?></th>
-                    <td>3</td>
-                    <td>5</td>
+                    <td><?php echo $language["TILLSAMTLIGA"]; ?></td>
+                    <td><?php echo $language["TILLSAMTLIGA"]; ?></td>
                     <td><?php echo $language["TILLSAMTLIGA"]; ?></td>
                   </tr>
 
                   <tr>
                     <th scope="row"><?php echo $language["LUNCHFOREL"]; ?></th>
                     <td></td>
-                    <td>X</td>
-                    <td>X</td>
+                    <td>1</td>
+                    <td>2</td>
                   </tr>
                   <tr>
                     <th scope="row"><?php echo $language["BANKETTBILJETTER"]; ?></th>
-                    <td></td>
                     <td>2</td>
-                    <td><?php echo $language["TILLSAMTLIGA"]; ?></td>
+                    <td>4</td>
+                    <td>6</td>
                   </tr>
                   <tr>
                     <th scope="row"><?php echo $language["PREMIUMPARTNERSKAP"]; ?></th>
                     <td></td>
                     <td></td>
-                    <td>X*</td>
+                    <td>&#10004;*</td>
                   </tr>
                 </tbody>
               </table>
