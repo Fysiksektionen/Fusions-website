@@ -81,11 +81,14 @@ body {
 }
 
 .bg-image {
-  background-image: url("../images/elem.svg") !important;
+  background-image: url("../images/background_cropped.png") !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .bg-primary {
-  background-color: #F8F9FA !important; #
+  background-color: #F8F9FA !important;
 }
 
 .bg-secondary {
@@ -271,7 +274,7 @@ h2 {
 }
 
 .name-front-page {
-  color: #F26530;
+  color: white;
   font-weight: 650;
   font-size: 7rem;
 }
@@ -279,7 +282,7 @@ h2 {
 .text-front-page {
   font-family: "Work Sans", Arial;
   font-weight: 300;
-  color: #F26530;
+  color: white;
 }
 /*
 ================================================================================
