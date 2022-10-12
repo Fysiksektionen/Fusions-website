@@ -1,7 +1,7 @@
 <?php include_once("header.php") ?>
     <main>
-    
-      <section class="bg-image full-background pb-2 min-vh-100 d-flex align-items-center">
+
+        <section class="bg-image mt-lg-5 d-flex align-items-center">
       
         <div class="container">
           
