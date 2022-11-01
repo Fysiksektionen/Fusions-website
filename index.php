@@ -4,17 +4,17 @@
 
     <main>
 
-      <section class="bg-image mt-lg-5 d-flex align-items-center">
+      <section class="mt-lg-5 d-flex align-items-center">
 
-        <div class="container">
+        <div class="bg-image container">
 
     			<div class="after-nav jumbotron text-light bg-transparent rounded-0 d-flex align-items-center">
 
             <div class="row mt-5">
               <div class="col text-center text-md-left">
-                <h1 class="display-4">
+                <h1 class="display-4" style="font-size: 600%">
                   <p class="name-front-page">
-                      <?php echo strtoupper($language["FUSION"] . " "); ?><span style="font-size: 4rem"><?php echo $language["YEAR"]; ?></span>
+                      <?php echo strtoupper($language["FUSION"] . " "); ?><span style="font-size: 50%"><?php echo $language["YEAR"]; ?></span>
                   </p>
 
                 </h1>
