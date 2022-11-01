@@ -88,7 +88,7 @@ body {
 
 .bg-image {
   background-image: url("../images/background_cropped.png") !important;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -284,7 +284,7 @@ h2 {
 .name-front-page {
   color: white;
   font-weight: 650;
-  font-size: 7rem;
+  font-size: 100%;
 }
 
 .text-front-page {

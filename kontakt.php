@@ -170,7 +170,7 @@
               <div class="m-4 justify-content-center">
                 <figure>
                   <img src="assets/images/kontaktbilder/test.jpg" alt="Marknadsföringsansvarig" class="size230 rounded-circle">
-                  <figcaption class="my-3 font-weight-light text-center">TBD<br><?php echo $language["MARKNAD"]; ?></figcaption>
+                  <figcaption class="my-3 font-weight-light text-center">Axel Kierkegaard<br><?php echo $language["MARKNAD"]; ?></figcaption>
                 </figure>
               </div>
             <!---
