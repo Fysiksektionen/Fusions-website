@@ -46,7 +46,7 @@
                 <?php echo $language["VAD2"]; ?>
                   <?php echo $language["TMF"]; ?>
                 <?php echo $language["VAD3"]; ?>
-                <a class="text-primary" href="https://www.facebook.com/events/941059096621064"><?php echo $language["FB"]; ?></a>.
+                <a class="text-primary" href="https://www.facebook.com/events/805421190756050"><?php echo $language["FB"]; ?></a>.
               </p>
               <hr class="text-dark">
               <p class="my-4">
