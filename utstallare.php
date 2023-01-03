@@ -21,24 +21,141 @@
         </div>
       </section>
 
+        <!-- Fusion 2023 -->
+        <hr>
+        <section class="bg-light">
+            <div class="container">
+                <div class="jumbotron text-center pb-0 pb-sm-4 mb-0">
+
+                    <h3 class="mb-4"><?php echo $language["HUVUDSPONSOR"]; ?></h3>
+                    <!--<section class="card-deck text-center font-weight-light">
+                      <section class="card">
+                        <a href="https://www.ericsson.com/en" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/ericsson.png" alt="Ericssons logotyp"></a>
+                      </section>
+                    </section>-->
+                    <p class="my-4">
+                        <?php echo $language["BLIHUVUDSPONSOR"]; ?><br>
+                        <?php echo $language["KONTAKTAOSS"]; ?>
+                        <a href="mailto:fusion@f.kth.se" class="text-primary"><?php echo $language["MAILFORETAGSKONTAKT"]; ?></a>
+                    </p>
+                </div>
+                <div class="jumbotron text-center py-0 py-sm-4 mb-0">
+                    <h2 class="mb-4"><?php echo $language["UTSTALLARE2023"]; ?></h2>
+
+                    <!-- Nya broschyren hamnar här när den är klar -->
+                    <!--<h3><a class="text-primary" href="assets/broschyr/broschyr21.pdf"><?php echo $language["BROSCHYR2023"]; ?></a></h3> -->
+
+                    <section class="card-deck text-center font-weight-light">
+                        <section class="card">
+                            <a href="https://www.accenture.com/se-en" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/accenture.svg" alt="Accentures logotyp"></a>
+                        </section>
+                        <section class="card">
+                            <a href="https://www.ampfield.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/ampfield.svg" alt="Ampfields logotyp"></a>
+                        </section>
+                        <section class="card">
+                            <a href="https://www.bcg.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/bcg.svg" alt="BCGs logotyp"></a>
+                        </section>
+                    </section>
+                </div>
+                <div class="jumbotron py-0 py-sm-4 mb-0">
+                    <section class="card-deck text-center font-weight-light">
+                        <section class="card">
+                            <a href="https://www.coherent.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/coherent.svg" alt="Coherents logotyp"></a>
+                        </section>
+                        <section class="card">
+                            <a href="https://www.comsol.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/comsol.svg" alt="Comsols logotyp"></a>
+                        </section>
+                        <section class="card">
+                            <a href="https://www.d-fine.com/en/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/dfine.svg" alt="d-fines logotyp"></a>
+                        </section>
+                    </section>
+                </div>
+                <div class="jumbotron py-0 py-sm-4 mb-0">
+                    <section class="card-deck text-center font-weight-light">
+                        <section class="card">
+                            <a href="https://echostate.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/echo-state.svg" alt="Echo States logotyp"></a>
+                        </section>
+                        <section class="card">
+                            <a href="https://www.elevri.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/elevri.svg" alt="Elevris logotyp"></a>
+                        </section>
+                        <section class="card">
+                            <a href="https://www.ericsson.com/en" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/ericsson.svg" alt="Ericssons logotyp"></a>
+                        </section>
+                    </section>
+                </div>
+                <div class="jumbotron py-0 py-sm-4 mb-0">
+                    <section class="card-deck text-center font-weight-light">
+                        <section class="card">
+                            <a href="https://floxrobotics.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/flox.svg" alt="Flox Robotics logotyp"></a>
+                        </section>
+                        <section class="card">
+                            <a href="https://www.foi.se/en/foi.html" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/foi.svg" alt="FOIs logotyp"></a>
+                        </section>
+                        <section class="card">
+                            <a href="https://www.gjensidige.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/gjensidige.svg" alt="Gjensidiges logotyp"></a>
+                        </section>
+                    </section>
+                </div>
+                <div class="jumbotron py-0 py-sm-4 mb-0">
+                    <section class="card-deck text-center font-weight-light">
+                        <section class="card">
+                            <a href="https://floxrobotics.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/grasp_ai.svg" alt="Grasp AIs logotyp"></a>
+                        </section>
+                        <section class="card">
+                            <a href="https://www.if.se/om-if/jobba-hos-oss" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/if.svg" alt="IFs logotyp"></a>
+                        </section>
+                        <section class="card">
+                            <a href="https://www.lynxhedge.se/en/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/lynx.svg" alt="Lynx logotyp"></a>
+                        </section>
+                    </section>
+                </div>
+                <div class="jumbotron py-0 py-sm-4 mb-0">
+                    <section class="card-deck text-center font-weight-light">
+                        <section class="card">
+                            <a href="https://modulai.io/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/modulai.svg" alt="Modulais logotyp"></a>
+                        </section>
+                        <section class="card">
+                            <a href="https://northvolt.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/northvolt.svg" alt="Northvolts logotyp"></a>
+                        </section>
+                        <section class="card">
+                            <a href="https://www.okg.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/okg.svg" alt="OKGs logotyp"></a>
+                        </section>
+                    </section>
+                </div>
+                <div class="jumbotron py-0 py-sm-4 mb-0">
+                    <section class="card-deck text-center font-weight-light">
+                        <section class="card">
+                            <a href="https://www.proximion.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/proximion.svg" alt="Proximions logotyp"></a>
+                        </section>
+                        <section class="card">
+                            <a href="https://www.saab.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/saab.svg" alt="SAABs logotyp"></a>
+                        </section>
+                        <section class="card">
+                            <img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/scaleup-robotics.svg" alt="Scaleup Robotics logotyp">
+                        </section>
+                    </section>
+                </div>
+                <div class="jumbotron py-0 py-sm-4 mb-0">
+                    <section class="card-deck text-center font-weight-light">
+                        <section class="card">
+                            <a href="https://www.spectrogon.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/spectrogon.svg" alt="Spectrogons logotyp"></a>
+                        </section>
+                        <section class="card">
+                            <a href="https://www.sunstone.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/sunstone.png" alt="Sunstones logotyp"></a>
+                        </section>
+                        <section class="card">
+                            <a href="https://www.tobii.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/tobii.svg" alt="Tobiis logotyp"></a>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </section>
+
       <!--- FUSION 2022 --->
 
       <section class="bg-light">
         <div class="container">
-          <div class="jumbotron text-center pb-0 pb-sm-4 mb-0">
 
-            <h3 class="mb-4"><?php echo $language["HUVUDSPONSOR"]; ?></h3>
-            <!--<section class="card-deck text-center font-weight-light">
-              <section class="card">
-                <a href="https://www.ericsson.com/en" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/ericsson.png" alt="Ericssons logotyp"></a>
-              </section>
-            </section>-->
-              <p class="my-4">
-                  <?php echo $language["BLIHUVUDSPONSOR"]; ?><br>
-                  <?php echo $language["KONTAKTAOSS"]; ?>
-                  <a href="mailto:fusion@f.kth.se" class="text-primary"><?php echo $language["MAILFORETAGSKONTAKT"]; ?></a>
-              </p>
-          </div>
           <div class="jumbotron text-center py-0 py-sm-4 mb-0">
             <h2 class="mb-4"><?php echo $language["UTSTALLARE2022"]; ?></h2>
 
