@@ -25,20 +25,6 @@
         <hr>
         <section class="bg-light">
             <div class="container">
-                <div class="jumbotron text-center pb-0 pb-sm-4 mb-0">
-
-                    <h3 class="mb-4"><?php echo $language["HUVUDSPONSOR"]; ?></h3>
-                    <!--<section class="card-deck text-center font-weight-light">
-                      <section class="card">
-                        <a href="https://www.ericsson.com/en" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2020/ericsson.png" alt="Ericssons logotyp"></a>
-                      </section>
-                    </section>-->
-                    <p class="my-4">
-                        <?php echo $language["BLIHUVUDSPONSOR"]; ?><br>
-                        <?php echo $language["KONTAKTAOSS"]; ?>
-                        <a href="mailto:fusion@f.kth.se" class="text-primary"><?php echo $language["MAILFORETAGSKONTAKT"]; ?></a>
-                    </p>
-                </div>
                 <div class="jumbotron text-center py-0 py-sm-4 mb-0">
                     <h2 class="mb-4"><?php echo $language["UTSTALLARE2023"]; ?></h2>
 
@@ -99,7 +85,7 @@
                 <div class="jumbotron py-0 py-sm-4 mb-0">
                     <section class="card-deck text-center font-weight-light">
                         <section class="card">
-                            <a href="https://floxrobotics.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/grasp_ai.svg" alt="Grasp AIs logotyp"></a>
+                            <a href="https://www.grasp-ai.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/grasp_ai.svg" alt="Grasp AIs logotyp"></a>
                         </section>
                         <section class="card">
                             <a href="https://www.if.se/om-if/jobba-hos-oss" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/if.svg" alt="IFs logotyp"></a>
