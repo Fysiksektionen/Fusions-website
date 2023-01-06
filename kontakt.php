@@ -146,7 +146,7 @@
             <div class="justify-content-center d-flex flex-wrap">
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/test.jpg" alt="Logistikansvarig och kassör" class="size230 rounded-circle">
+                  <img src="assets/images/kontaktbilder/2023/frida.JPG" alt="Logistikansvarig och kassör" class="size230 rounded-circle">
                   <figcaption class="my-3 font-weight-light text-center">Frida Ekner<br><?php echo $language["LOGISTIKANSVARIG"] . "/" . $language["EKONOMIANSVARIG"]; ?></figcaption>
                 </figure>
               </div>
@@ -163,13 +163,13 @@
             <div class="justify-content-center d-flex flex-wrap">
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/test.jpg" alt="Sittningsansvarig" class="size230 rounded-circle">
+                  <img src="assets/images/kontaktbilder/2023/emil.JPG" alt="Sittningsansvarig" class="size230 rounded-circle">
                   <figcaption class="my-3 font-weight-light text-center">Emil Ulander<br><?php echo $language["SITTNING"]; ?></figcaption>
                 </figure>
               </div>
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/test.jpg" alt="Sittningsansvarig" class="size230 rounded-circle">
+                  <img src="assets/images/kontaktbilder/2023/erik.JPG" alt="Sittningsansvarig" class="size230 rounded-circle">
                     <figcaption class="my-3 font-weight-light text-center">Erik Ildring<br><?php echo $language["SITTNING"]; ?></figcaption>
                 </figure>
               </div>
@@ -177,13 +177,13 @@
             <div class="justify-content-center d-flex flex-wrap">
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/test.jpg" alt="Marknadsföringsansvarig" class="size230 rounded-circle">
+                  <img src="assets/images/kontaktbilder/2023/axel.JPG" alt="Marknadsföringsansvarig" class="size230 rounded-circle">
                   <figcaption class="my-3 font-weight-light text-center">Axel Kierkegaard<br><?php echo $language["MARKNAD"]; ?></figcaption>
                 </figure>
               </div>
               <div class="m-4 justify-content-center">
                 <figure>
-                  <img src="assets/images/kontaktbilder/test.jpg" alt="Marknadsföringsansvarig" class="size230 rounded-circle">
+                  <img src="assets/images/kontaktbilder/2023/tyra.jpg" alt="Marknadsföringsansvarig" class="size230 rounded-circle">
                     <figcaption class="my-3 font-weight-light text-center">Tyra Areskoug<br><?php echo $language["MARKNAD"]; ?></figcaption>
                 </figure>
               </div>

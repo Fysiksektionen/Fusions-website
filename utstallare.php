@@ -105,46 +105,59 @@
                             <a href="https://www.if.se/om-if/jobba-hos-oss" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/if.svg" alt="IFs logotyp"></a>
                         </section>
                         <section class="card">
-                            <a href="https://www.lynxhedge.se/en/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/lynx.svg" alt="Lynx logotyp"></a>
+                            <a href="https://www.janestreet.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/janestreet.svg" alt="Jane Streets logotyp"></a>
                         </section>
                     </section>
                 </div>
                 <div class="jumbotron py-0 py-sm-4 mb-0">
                     <section class="card-deck text-center font-weight-light">
+                        <section class="card">
+                            <a href="https://www.lynxhedge.se/en/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/lynx.svg" alt="Lynx logotyp"></a>
+                        </section>
                         <section class="card">
                             <a href="https://modulai.io/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/modulai.svg" alt="Modulais logotyp"></a>
                         </section>
                         <section class="card">
                             <a href="https://northvolt.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/northvolt.svg" alt="Northvolts logotyp"></a>
                         </section>
-                        <section class="card">
-                            <a href="https://www.okg.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/okg.svg" alt="OKGs logotyp"></a>
-                        </section>
                     </section>
                 </div>
                 <div class="jumbotron py-0 py-sm-4 mb-0">
                     <section class="card-deck text-center font-weight-light">
+                        <section class="card">
+                            <a href="https://www.okg.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/okg.svg" alt="OKGs logotyp"></a>
+                        </section>
                         <section class="card">
                             <a href="https://www.proximion.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/proximion.svg" alt="Proximions logotyp"></a>
                         </section>
                         <section class="card">
                             <a href="https://www.saab.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/saab.svg" alt="SAABs logotyp"></a>
                         </section>
+                    </section>
+                </div>
+                <div class="jumbotron py-0 py-sm-4 mb-0">
+                    <section class="card-deck text-center font-weight-light">
                         <section class="card">
                             <img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/scaleup-robotics.svg" alt="Scaleup Robotics logotyp">
+                        </section>
+                        <section class="card">
+                            <a href="https://www.stralsakerhetsmyndigheten.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/smm.svg" alt="SMMs logotyp"></a>
+                        </section>
+                        <section class="card">
+                            <a href="https://www.spectrogon.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/spectrogon.svg" alt="Spectrogons logotyp"></a>
                         </section>
                     </section>
                 </div>
                 <div class="jumbotron py-0 py-sm-4 mb-0">
                     <section class="card-deck text-center font-weight-light">
                         <section class="card">
-                            <a href="https://www.spectrogon.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/spectrogon.svg" alt="Spectrogons logotyp"></a>
-                        </section>
-                        <section class="card">
                             <a href="https://www.sunstone.se/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/sunstone.png" alt="Sunstones logotyp"></a>
                         </section>
                         <section class="card">
                             <a href="https://www.tobii.com/" target="_blank"><img class="card-img-top card-img-top-md mx-auto" src="assets/images/logos2023/tobii.svg" alt="Tobiis logotyp"></a>
+                        </section>
+                        <section class="card invisible">
+                            <a href="#"><img class="card-img-top card-img-top-md mx-auto" src="#" alt="Utfyllnad"></a>
                         </section>
                     </section>
                 </div>
