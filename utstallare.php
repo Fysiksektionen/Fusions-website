@@ -28,8 +28,7 @@
                 <div class="jumbotron text-center py-0 py-sm-4 mb-0">
                     <h2 class="mb-4"><?php echo $language["UTSTALLARE2023"]; ?></h2>
 
-                    <!-- Nya broschyren hamnar här när den är klar -->
-                    <!--<h3><a class="text-primary" href="assets/broschyr/broschyr21.pdf"><?php echo $language["BROSCHYR2023"]; ?></a></h3> -->
+                        <h3><a class="text-primary" href="assets/broschyr/broschyr23.pdf"><?php echo $language["BROSCHYR2023"]; ?></a></h3>
 
                     <section class="card-deck text-center font-weight-light">
                         <section class="card">
